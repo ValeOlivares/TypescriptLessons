@@ -8,9 +8,6 @@ const carsByMake : string[][]= [];
 const firstCar = carMakers[0];
 const myCar = carMakers.pop();
 
-// Prevent incompatible values
-carMakers.push(100);
-
 //help with 'map'
 carMakers.map((car: string): string => {
   return car.toLowerCase();
